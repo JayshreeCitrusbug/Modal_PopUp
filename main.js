@@ -6,14 +6,8 @@ function toggle(){
     console.log("blurrrr")
     // var dbody = document.getElementById('dbody');
     // dbody.classList.toggle('active');
-    // $(document).click(function(e){
-    //     if($(e.target).closest('#popup').length != 0) {
-    //         console.log("Helloooo")
-    //         return false;}
-    //     $('#popup').hide();
-    // });
+  
 }
-
 
 const textColor = document.getElementById('textcolor');
 const backColor = document.getElementById('backcolor');
@@ -44,6 +38,12 @@ var box = document.getElementById('popup');
     },200);
 
 
+  // $(document).click(function(e){
+    //     if($(e.target).closest('#popup').length != 0) {
+    //         console.log("Helloooo")
+    //         return false;}
+    //     $('#popup').hide();
+    // });
 
 // $('#popup').css({
 //     "border-width" : "0",
