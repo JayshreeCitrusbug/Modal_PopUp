@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modal PopUp</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container" id="blur">
+    <div class="content">
+      <h2>Modal Pop Up Task</h2>
+      <br>
+      <p id="para1"><input name="Text" type="color" id="textcolor" value="#000000" /><label for="text" style="margin-right: 60px; margin-left: 5px;"> Choose a color for the
+        text</label>
+      <input name="Back" type="color" id="backcolor" value="#ffffff" /><label for="back" style="margin-left: 5px;"> Choose a color for
+        Background</label></p>
+      
+      <img src="mountains.jpg">
+      <button id="popupclicked" onclick="toggle()">Click to open PopUp</button>
+    </div>
+  </div>
+  <div id="popup" contenteditable="true">
+
+    <h2 id="inputColor">Login Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+        </div>
+        </form>
+
+      <!-- <label for="uname">User Name</label>
+      <input type="text" id="inputColorName">
+      <br><br>
+      <label for="Pass">Password</label>
+      <input type="password" id="inputColorPass"> 
+      <input name="Text" type="color" id="textcolor" value="#000000"/><label for="text"> Choose a color for the text</label>
+      <input name="Back" type="color" id="backcolor" value="#ffffff"/><label for="back"> Choose a color for Background</label>-->
+    <button id="btn" onclick="toggle()">Close</button>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
